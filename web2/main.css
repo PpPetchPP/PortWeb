@@ -1,0 +1,37 @@
+body
+{
+    background-color: burlywood;
+}
+
+.gridcon
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+.gridcon > div
+{
+    border: 1px solid black;
+    text-align: left;
+}
+
+#Topic
+{
+    padding-left: 10px;
+    background-color: gainsboro;
+}
+
+#TopicandCom
+{
+    background-color:darkslategray;
+}
+
+#coment
+{
+    background-color: cornsilk;
+}
+
+#Usercanclick
+{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,503 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style:preserve-3d;
+    height: auto;
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: url(bg.jpg);
+}
+#port
+{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.Content
+{
+    z-index: 1;
+    width: 100vw;
+    position: absolute;
+    background:rgb(126, 126, 126);
+    color: white;
+    line-height: 30px;
+}
+
+.Scrolling
+{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.Scrolling2
+{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.Scrolling3
+{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.Scrolling4
+{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.Scrolling5
+{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.Scrolling6
+{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.Scrolling::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(moon.png);
+    background-size: cover;
+    transform: translateZ(-1px) scale(1.5);
+    z-index: -1;
+    min-height: 100vh;
+}
+.Scrolling2::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(mountain.png);
+    background-size: cover;
+    transform: translateZ(-0.7px) scale(2);
+    z-index: 0;
+    min-height: 100vh;
+}
+.Scrolling3::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(road.png);
+    background-size: cover;
+    transform: translateZ(-0.5px) scale(1.5);
+    z-index: 0;
+    min-height: 100vh;
+}
+.Scrolling4::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(parallax-demon-woods-far-trees.png);
+    background-size: cover;
+    transform: translateZ(-1px) scale(1.5);
+    z-index: -1;
+    min-height: 100vh;
+}
+.Scrolling5::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(parallax-demon-woods-mid-trees.png);
+    background-size: cover;
+    transform: translateZ(-0.7px) scale(2);
+    z-index: 0;
+    min-height: 100vh;
+}
+.Scrolling6::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(parallax-demon-woods-close-trees.png);
+    background-size: cover;
+    transform: translateZ(-0.5px) scale(1.5);
+    z-index: 0;
+    min-height: 100vh;
+}
+
+/*parallax ref:https://www.youtube.com/watch?v=6CQ7DYni7Bg
+               https://www.youtube.com/watch?v=TawH-AqHTXc
+*/
+.fixhr
+{
+    width: 90vw;
+    margin: auto;
+}
+h1
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    /* background-color: black; */
+    width:max-content;
+}
+
+.Head
+{
+    background-color: rgb(87, 87, 87);
+    padding: 2px;
+}
+
+.Head td
+{
+    width: 100%;
+}
+.Head h1
+{
+    padding-right: 30px;
+}
+.pat0
+{
+    background-color: rgb(126, 126, 126);
+    padding: 30px;
+    min-height: 300px;
+}
+.pat0 h1
+{
+    margin-left: 300px;
+}
+
+.pat0 p
+{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.pat1
+{
+    background-color: rgb(126, 126, 126);
+    padding: 30px;
+    min-height: 400px;
+}
+.pat1 h1
+{
+    margin-left: -5px;
+}
+.pat1 p
+{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 600px;
+}
+.pat2
+{
+    background-color:dimgrey;
+    padding: 30px;
+    min-height: 400px;
+}
+.pat2 h1
+{
+    margin-left: -5px;
+}
+.pat2 p
+{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 600px;
+}
+
+#profilepic
+{   
+    z-index: 3;
+    position: absolute;
+    width: auto;
+    height: 250px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#menubar
+{
+    text-align: center;
+}
+#menubar input
+{
+    border: none;
+    text-align: center;
+    font-size: 30px;
+}
+#menubar input:hover
+{
+    color: black;
+    background-color:white ;
+}
+.notactive
+{
+    color:  white;
+    background-color: rgb(126, 126, 126);
+}
+.active
+{
+    color: black;
+    background-color:rgb(172, 172, 172) ;
+}
+
+.Show
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    background-color: rgb(139, 139, 139);
+    width: 60vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#projectbar
+{
+    text-align: center;
+}
+#projectbar input
+{
+    border: none;
+    text-align: center;
+    font-size: 30px;
+}
+#projectbar input:hover
+{
+    color: black;
+    background-color:white ;
+}
+.pichobby
+{
+    margin: auto;
+    width:max-content;
+}
+.pichobby img
+{
+    height: 100px;
+    width: auto;
+}
+
+.textcenter
+{
+    text-align: center;
+}
+
+table
+{
+    margin: auto;
+}
+th,td
+{
+    padding: 15px;
+}
+
+#AssighmentSize
+{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+}
+#white
+{
+    position: absolute;
+    height: 170px;
+    width: auto;
+    border: black;
+    border-radius: 100%;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.piccontact
+{
+    width: 60px;
+    height: auto;
+}
+
+.portpic
+{
+    position: absolute;
+    height: 30vh;
+}
+
+a
+{
+    color: white;
+}
+
+.goport
+{
+    text-align: right;
+}
+
+@media only screen and (max-width: 1500px)
+{
+
+    a
+    {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        text-align: center;
+    }
+    .pat1
+    {
+        background-color: rgb(126, 126, 126);
+        padding: 30px;
+        min-height: 400px;
+    }
+    .pat1 h1
+    {
+        margin-left: -5px;
+    }
+    .pat1 p
+    {
+        font-size: 20px;
+        padding-top: 100px;
+        padding-left: 650px;
+    }
+
+    .pat2
+    {
+        background-color:dimgrey;
+        padding: 30px;
+        min-height: 400px;
+    }
+    .pat2 h1
+    {
+        margin-left: -5px;
+    }
+    .pat2 p
+    {  
+        font-size: 20px;
+        padding-top: 100px;
+        padding-left: 650px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px)
+{
+
+    a
+    {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .pat0
+    {
+        background-color: rgb(126, 126, 126);
+        padding: 30px;
+        min-height: 300px;
+    }
+    .pat0 h1
+    {
+        margin-left: 300px;
+    }
+
+    .pat0 p
+    {
+        padding-top: 300px;
+        padding-left: 0px;
+    }
+    .pat1
+    {
+        background-color: rgb(126, 126, 126);
+        padding: 30px;
+        min-height: 400px;
+    }
+    .pat1 h1
+    {
+        margin-left: -5px;
+    }
+    .pat1 p
+    {
+        font-size: 20px;
+        padding-top: 400px;
+        padding-left: 40px;
+    }
+
+    .pat2
+    {
+        background-color:dimgrey;
+        padding: 30px;
+        min-height: 400px;
+    }
+    .pat2 h1
+    {
+        margin-left: -5px;
+    }
+    .pat2 p
+    {  
+        font-size: 20px;
+        padding-top: 400px;
+        padding-left: 40px;
+    }
+    .portpic
+    {
+        margin-left: 10vw;
+        position: absolute;
+        height: 30vh;
+    }
+
+}
