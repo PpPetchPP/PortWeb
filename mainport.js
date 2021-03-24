@@ -71,6 +71,7 @@ function sFun()
 function As1()
 {
     document.getElementById("work").innerHTML = '<object type="text/html" data="web3/recipe.html" style="width: ' + 60 + 'vw; height: ' + 700 + 'px;"></object>';
+    //web in web ref: https://stackoverflow.com/questions/17636528/how-do-i-load-an-html-page-in-a-div-using-javascript
     document.getElementById("Assighment 1").className ="active";
     document.getElementById("Assighment 2").className = "notactive";
     document.getElementById("Assighment 3").className = "notactive";
