@@ -210,6 +210,20 @@ h1
 {
     padding-right: 30px;
 }
+.Bott
+{
+    background-color: rgb(87, 87, 87);
+    padding: 2px;
+}
+
+.Bott td
+{
+    width: 80%;
+}
+.Bott h1
+{
+    padding-right: 60px;
+}
 .pat0
 {
     background-color: rgb(126, 126, 126);
