@@ -4,17 +4,9 @@ function pageloaded()
     var HobbyBut = document.getElementById("Hobby");
     var AttentionBut = document.getElementById("Attention");
     var SkillBut = document.getElementById("Skill");
-    var As1But = document.getElementById("Assighment 1");
-    var As2But = document.getElementById("Assighment 2");
-    var As3But = document.getElementById("Assighment 3");
-    var As4But = document.getElementById("Assighment 4");
     HobbyBut.onclick = hFun;
     AttentionBut.onclick = aFun;
     SkillBut.onclick = sFun;
-    As1But.onclick = As1;
-    As2But.onclick = As2;
-    As3But.onclick = As3;
-    As4But.onclick = As4;
 }
 
 function hFun()
