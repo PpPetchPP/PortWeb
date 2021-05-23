@@ -22,7 +22,13 @@ body {
     font-size: 50px;
     transform: translate(-50%, -50%);
 }
-
+.aboutme
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: center;
+}
 .Content
 {
     z-index: 1;
@@ -312,6 +318,7 @@ h1
 
 .Show
 {
+    font-size: 20px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
