@@ -27,11 +27,9 @@ function aFun()
     document.getElementById("personal").innerHTML = "<h1>Attention : ความสนใจ</h1>"
     +"<p class='textcenter'>มีความสนในในด้านการพัฒนาเกมในส่วนของ</p>"
     +"<p class='textcenter'>Game Developer ด้วยโปรแกรม Unity3D</p>"
-    +"<p class='textcenter'>Web Developer ด้วยภาษา HTML CSS Javascript</p>"
     +"<p class='textcenter'>Game Design</p>"
     +"<div class='pichobby'>"
-    +"<img src='unity.png'><img src='html.png'>"   
-    +"</div>";
+    +"<img src='unity.png'>";
     document.getElementById("Hobby").className = "notactive";
     document.getElementById("Attention").className = "active";
     document.getElementById("Skill").className ="notactive";
@@ -42,18 +40,17 @@ function sFun()
     document.getElementById("personal").innerHTML = "<h1>Skill : ทักษะ</h1>"
     +"<table class='textcenter'>"
     +"<tr><th><h3>Programing Skill</h3></th>"
-    +"<th><h3>Soft Skill</h3></th></tr>"
+    +"<th><h3>Software Skill</h3></th></tr>"
     +"<tr><td> C#</td>"
     +"<td>Unity3D</td></tr>"
     +"<tr><td>HTML</td>"
     +"<td>Procreate</td></tr>"
     +"<tr><td>CSS</td>"
-    +"<td>เล่นเกมเก่งมาก</td></tr>"
     +"<tr><td>Javascript</td>"
     +"<td></td></tr>"
     +"</table>"
     +"<div class='pichobby'>"
-    +"<img src='unity.png'><img src='html.png'>"   
+    +"<img src='unity.png'>"   
     +"</div>";
     document.getElementById("Hobby").className = "notactive";
     document.getElementById("Attention").className = "notactive";
